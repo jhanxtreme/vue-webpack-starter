@@ -1,5 +1,5 @@
 {
-  "name": "vue-webpack",
+  "name": "vue-webpack-starter",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,8 +8,8 @@
     "build:dev": "webpack --config config/webpack.dev.js",
     "build:prod": "webpack --config config/webpack.prod.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vue", "webpack", "vue webpack", "vuejs", "vuejs webpack"],
+  "author": "Jhan Mateo",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
