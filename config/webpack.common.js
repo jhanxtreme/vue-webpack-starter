@@ -39,7 +39,7 @@ const config = {
         new CleanWebpackPlugin(),
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
-            title: 'My Application',
+            title: 'My VUE Application',
             template: './src/index.html'
         }),        
     ]

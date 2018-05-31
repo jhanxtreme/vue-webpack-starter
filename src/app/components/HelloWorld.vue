@@ -1,6 +1,7 @@
 <template>
     <div class="HelloWorld">
-        <h1>Hello World! This Is Your Vue Webpack Starter</h1>
+        <h1>Hello World!</h1>
+        <p>This is your Vue webpack starter application.</p>
     </div>
 </template>
 
@@ -11,7 +12,7 @@ export default {
 </script>
 
 <style scoped>
-.HelloWorld h1{
+.HelloWorld {
     border: 1px #ddd solid;
     border-radius: 3px;
     text-align: center;
@@ -25,5 +26,9 @@ export default {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
+}
+.HelloWorld h1{
+    font-weight: normal;
+    margin: 0;
 }
 </style>
